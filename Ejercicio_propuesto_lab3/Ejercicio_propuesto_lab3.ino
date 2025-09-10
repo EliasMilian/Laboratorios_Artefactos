@@ -22,6 +22,7 @@ unsigned long tAnterior = 0;
 const float VREF = 5.0;  // Referencia ADC (5.0 en la mayoría de Arduinos a 5 V)
 
 void setup() {
+  //
   Serial.begin(9600);
   delay(100);
 
